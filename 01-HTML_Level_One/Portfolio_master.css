@@ -41,6 +41,11 @@ li {
   color: #2228e0;
 }
 
-p{
+#text{
   color: #000000;
+  border: 3px dotted black;
+}
+
+.main{
+  border: 4px solid black;
 }
