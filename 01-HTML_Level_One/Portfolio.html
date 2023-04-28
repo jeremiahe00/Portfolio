@@ -9,42 +9,90 @@
     <link rel="stylesheet" href="Portfolio_master.css">
   </head>
   <body>
-    <h1><em>Welcome!</em></h1>
+    <h1><em>Welcome to Jeremiah's Portfolio!</em></h1>
     <form>
       <h3>Pick a Background Color</h3>
       <input id="colorwheel" type="color" name="bkgncolor" value="">
     </form>
-    <div class="main">
-      <h4><strong> <a href="https://github.com/jeremiahe00">Github</a> </strong></h4>
+    <div class="mainParent">
+      
+    <div class="main" id="main1">
+      <h4><strong> <a href="https://github.com/jeremiahe00" rel="noopener" target="_blank">Github</a> </strong></h4>
       <select name="projects">
         <option name="Project1">project1</option>
         <option name="Project2">project2</option>
         <option name="Project3">project2</option>
       </select>
     </div>
-    <div class="main">
-      <h5>Skills: <br>
-      <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>RESTApi</li>
-      </ul>
+    <div class="main" id="main2">
+      <h4>Main Skills:</h4>
+      <h5>
+        <table>
+          <tr>
+            <td>
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>JS</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>AWS</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Flask</li>
+                <li>Jupyter Notebook</li>
+                <li>PyCharm</li>
+                <li>VS Code</li>
+                <li>Spring Boot</li>
+                <li>(My)SQL</li>
+                <li>RESTApi</li>
+                <li>Apache Maven</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Design Patterns/Architecture</li>
+                <li>Scrum/Sprint Planning/Agile Methodologies</li>
+                <li>SFTP Polling</li>
+                <li>Kafka producing & consuming</li>
+                <li>Jenkins</li>
+                <li>UrbanCode Deploy</li>
+                <li>PCF</li>
+                <li>A* Path Finding algorithm</li>
+                <li>Robot Motion Planning</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
      </h5>
     </div>
-    <div class="main">
+    <div class="main" id="main3">
       <h4><strong> <span>Email</span> </strong></h4>
-      <h4><strong> <span> <a href="https://www.linkedin.com/in/jeremiaherome/">LinkedIn</a></span> </strong></h4>
+      <h4><strong> <span> <a href="https://www.linkedin.com/in/jeremiaherome/" rel="noopener" target="_blank">LinkedIn</a></span> </strong></h4>
     </div>
+  </div>
     <br>
     <br>
     <br>
-    <h5><em>Career Summary</em>: </h5><p id="text">Words </p>
+    <h5><em>Career Summary</em>: </h5><p id="text">•	Implementing secure & reliable APIs/Apps and modifying existing APIs/Apps<br>
+      Major Project A<br>
+      •	Designed & implemented an API that pulls data from 8 downstream services (External/Internal APIs & Oracle DB), filters\consolidates all of the client’s data and returns it to the UI<br>
+      •	Variety of exception handling, such as client level vs account level failures/successes and case-by-case logic implemented<br>
+      •	Reduced latency from 10-15s to 0.5-3s<br>
+      •	Deployed nation-wide and used by millions of clients daily<br>
+      Major Project B<br>
+      •	Led, Designed & implemented an API that pulls client’s account data from multiple external remote files<br>
+      •	Parses through all the data with scheduling and apply required logic for specific criteria<br>
+      •	Consolidates & POSTs the data to an external API with appropriate exception handling and an email system for failures and successes<br>
+       </p>
     <br>
     <br>
-    <h5><em>Goals / Objectives</em>: </h5><p id="text">Words </p>
-    
-    
-    <!-- The body contains the actual content -->
+    <h5><em>Goals / Objectives</em>: </h5><p id="text">Actively looking into getting myself into the Artificial Intelligence field and would like to work with robotics, ML/DL, expert systems, language processing and more. 
+      Currently building Python projects which includes Full-Stack development to solidify my foundation, then I will move onto AI specific libraries to reach the above goal. </p>
 
   </body>
 </html>
