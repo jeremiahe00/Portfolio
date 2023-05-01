@@ -13,30 +13,30 @@ Selected Tag {
 
 /*Colors can be names, or codes*/
 
-h1{
+h1 {
   color: #f2a941;
   text-align: center;
   margin: auto;
   padding: 1% 0 2% 0;
 }
 
-body{
+body {
   background-color: #39e3fa;
   font-size: 1.1em;
   padding: 0 2.5% 5% 2.5%
 }
 
-.mainParent{
+.mainParent {
   border: 0.5px solid white;
 }
 
-.main{
+.main {
   /*border: 1px solid black;*/
   display: inline-block;
   padding: 1.8em;
 }
 
-#main1{
+#main1 {
   /*border: 1px solid black;*/
   padding-top: 5%;
   padding-bottom: 17%;
@@ -44,49 +44,52 @@ body{
   margin-top: 2%;
 }
 
-#main2{
+#main2 {
   /*border: 1px solid black;*/
   margin-left: 11%;
-  margin-right: 11%;
-  
+  margin-right: 2%;
 }
 
-#main3{
+#main3 {
   /*border: 1px solid black;*/
   margin-right: 5%;
   padding-top: 5%;
   padding-bottom: 15%;
 }
 
-a:visited{
+#email {
   color: blue;
 }
 
-a:active{
+a:visited {
+  color: blue;
+}
+
+a:active {
   color: darkblue;
 }
 
-a:default{
+a:default {
   color: #f29410;
 }
 
-#skills{
+#skills {
   text-align: center;
 }
 
-h4{
+h4 {
   color: #f2a941;
 }
 
-h5{
+h5 {
   color: #f2a941;
 }
 
-div{
+div {
   background-color: #75ebfa;
 }
 
-select{
+select {
   background-color: #88effc;
 }
 
@@ -94,12 +97,12 @@ li {
   color: #2228e0;
 }
 
-#text{
+#text {
   background-color: #75ebfa;
   color: #000000;
   border: 3px dotted rgb(235, 158, 70);
 }
 
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
 }
