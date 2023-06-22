@@ -1,17 +1,4 @@
-/*
-This is a comment
-*/
 
-/*
-General Form is:
-
-Selected Tag {
-  property: value;
-}
-
-*/
-
-/*Colors can be names, or codes*/
 
 h1 {
   color: #f2a941;
@@ -31,27 +18,17 @@ body {
 }
 
 .main {
-  /*border: 1px solid black;*/
   display: inline-block;
   padding: 1.8em;
 }
 
 #main1 {
-  /*border: 1px solid black;*/
   padding-top: 5%;
   padding-bottom: 17%;
-  /* margin-left: 1%; */
   margin-top: 2%;
 }
 
-/* #main2 {
-  margin-left: 1%;
-  margin-right: 1%;
-} */
-
 #main3 {
-  /*border: 1px solid black;*/
-  /* margin-right: 1%; */
   padding-top: 10%;
   padding-bottom: 15%;
 }
@@ -84,7 +61,7 @@ h5 {
   color: #f2a941;
 }
 
-div {
+.container {
   background-color: #75ebfa;
 }
 
@@ -96,7 +73,7 @@ li {
   color: #2228e0;
 }
 
-#text {
+.text {
   background-color: #75ebfa;
   color: #000000;
   border: 3px dotted rgb(235, 158, 70);
@@ -104,4 +81,9 @@ li {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.modes button {
+  height: 25px;
+  width: 25px;
 }

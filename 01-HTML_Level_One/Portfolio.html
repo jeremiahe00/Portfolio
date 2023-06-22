@@ -13,16 +13,24 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="Portfolio_master.css">
+
 </head>
 
 <body>
   <h1><em>Welcome to Jeremiah's Portfolio!</em></h1>
-  <form>
-    <label for="colorwheel" class="form-label">
+    <!-- <label for="colorwheel" class="form-label">
       <h3>Pick a Background Color</h3>
     </label>
-    <input id="colorwheel" type="color" class="form-control-color" name="bkgncolor" value="#39e3fa">
-  </form>
+    <input id="colorwheel" type="color" class="form-control-color" name="bkgncolor"> -->
+
+    <table class="modes">
+      <tr>
+        <td><button type="button" style="background-color: #39e3fa;"></button></td>
+        <td><button type="button" style="background-color: rgb(25, 25, 25);"></button></td>
+        <td><button type="button" style="background-color: rgb(245, 245, 245);"></button></td>
+      </tr>
+    </table>
+    
   <div class="container">
     <div class="mainParent">
       <div class="row">
@@ -30,7 +38,7 @@
           <div class="main" id="main1">
             <h5><strong> <a href="https://github.com/jeremiahe00" rel="noopener" target="_blank">Github</a> </strong>
             </h5>
-            <select name="projects" class="form-select">
+            <select name="projects" class="form-select" style="background-color: rgb(242, 169, 65)">
               <option selected>Select Project</option>
               <option name="Project1">A-star-PathFinding</option>
               <option name="Project2">MazeOfAtlantis</option>
@@ -45,10 +53,7 @@
             <h6>
               <div class="row">
 
-                <!-- <table>
-                  <tr> -->
                 <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
-                  <!-- <td> -->
                   <ul>
                     <li>Java</li>
                     <li>Python</li>
@@ -60,10 +65,8 @@
                     <li>AWS</li>
                     <li>Flask</li>
                   </ul>
-                  <!-- </td> -->
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <!-- <td> -->
                   <ul>
                     <li>Jupyter Notebook</li>
                     <li>PyCharm</li>
@@ -74,10 +77,8 @@
                     <li>Apache Maven</li>
                     <li>Design Patterns</li>
                   </ul>
-                  <!-- </td> -->
                 </div>
                 <div class="col-xl-5 col-lg-4 col-md-5 col-sm-12">
-                  <!-- <td> -->
                   <ul>
                     <li>Scrum/Sprint Planning</li>
                     <li>Agile Methodologies</li>
@@ -89,10 +90,7 @@
                     <li>A* Path Finding algorithm</li>
                     <li>Robot Motion Planning</li>
                   </ul>
-                  <!-- </td> -->
                 </div>
-                <!-- </tr>
-                </table> -->
 
               </div>
             </h6>
@@ -111,7 +109,7 @@
     <br>
     <br>
     <h5><em>Career Summary</em>: </h5>
-    <p id="text">• Implementing secure & reliable APIs/Apps and modifying existing APIs/Apps<br>
+    <p class="text">• Implementing secure & reliable APIs/Apps and modifying existing APIs/Apps<br>
       Major Project A<br>
       • Designed & implemented an API that pulls data from 8 downstream services (External/Internal APIs & Oracle DB),
       filters\consolidates all of the client’s data and returns it to the UI<br>
@@ -128,13 +126,24 @@
     <br>
     <br>
     <h5><em>Goals / Objectives</em>: </h5>
-    <p id="text">Actively looking into getting myself into the Artificial Intelligence field and would like to work with
+    <p class="text">Actively looking into getting myself into the Artificial Intelligence field and would like to work with
       robotics, ML/DL, expert systems, language processing and more.
       Currently building Python projects which includes Full-Stack development to solidify my foundation, then I will
       move
       onto AI specific libraries to reach the above goal. </p>
 
   </div>
+
+
+
+
+
+  
+  <script src="http://code.jquery.com/jquery-3.7.0.js " integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous" ></script>
+  <!--  -->
+  <script src="Portfolio_action.js">
+
+  </script>
 </body>
 
 </html>
