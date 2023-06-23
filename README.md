@@ -6,6 +6,7 @@
 Default 'rgb(57, 227, 250)'
 Dark Mode `rgb(25, 25, 25)`
 light Mode `rgb(245, 245, 245)`
+`rgb(9, 105, 218)`
 
 
 ## [HTML](front-end/Portfolio.html)
