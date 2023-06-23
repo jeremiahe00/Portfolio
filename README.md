@@ -1,5 +1,5 @@
 # Jeremiah's Portfolio
-** Full FE project using below skills **
+**Full FE project using below skills**
 
 
 Page Modes:
