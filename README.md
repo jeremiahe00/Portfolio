@@ -6,7 +6,7 @@ Page Modes:
 ```
 Default 'rgb(57, 227, 250)'
 Dark Mode `rgb(25, 25, 25)`
-light Mode `rgb(245, 245, 245)`
+Light Mode `rgb(245, 245, 245)`
 ```
 
 
