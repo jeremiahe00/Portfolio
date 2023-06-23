@@ -7,16 +7,17 @@ Page Modes:
 Default 'rgb(57, 227, 250)'
 Dark Mode `rgb(25, 25, 25)`
 light Mode `rgb(245, 245, 245)`
+`rgb(9, 105, 218)`
 ```
 
 
-## Html [HTML](front-end/Portfolio.html)
+## [HTML](front-end/Portfolio.html)
 
 
-## CSS & Bootstrap 5
+## [CSS & Bootstrap 5](front-end/Portfolio.html)
 
 
-## JS & Jquery
+## [JS & Jquery](front-end/Portfolio.html)
 
 
 ### Remote URL
