@@ -1,9 +1,9 @@
 
 
-
+// get button selected at the top
 var bkgn = $('table td button');
 
-
+// changes background color ("modes" to the button color selected)
 bkgn.click(function () {
   document.body.style.backgroundColor = $(this).css("background-color");
 
@@ -32,15 +32,18 @@ bkgn.click(function () {
 
 });
 
+
+// temp sol - github projs to open (use api with security in the future)
 var mostRecent = "https://github.com/jeremiahe00/Portfolio";
 var secondTop = "https://github.com/jeremiahe00/A-star-PathFinding---Makeblock-Mbot---Arduino";
 var thirdTop = "https://github.com/jeremiahe00/MazeOfAtlantis";
 var firstProjectInd = 1;
 var numOfProjs = 3 + firstProjectInd;
 
+
 $('select.form-select').on("change", openGithubOptions);
 
-
+// open github projects on what is selected
 function openGithubOptions() {
 
   var option = $('select option:selected');

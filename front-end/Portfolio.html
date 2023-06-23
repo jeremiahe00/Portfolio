@@ -18,14 +18,16 @@
 
 <body>
   <h1><em>Welcome to Jeremiah's Portfolio!</em></h1>
-  <!-- <label for="colorwheel" class="form-label">
+  <!-- Leaving this here: 1. Hidden and allow users to switch     2. Replace and use only solid colors for whole page -->
+  <!-- <label for="colorwheel" class="form-label"> 
       <h3>Pick a Background Color</h3>
     </label>
     <input id="colorwheel" type="color" class="form-control-color" name="bkgncolor"> -->
 
+  <!-- User can choose default, dark or light mode -->
   <table class="modes">
     <tr>
-      <td><button type="button" style="background-color: #39e3fa;"></button></td>
+      <td><button type="button" style="background-color: rgb(57, 227, 250);"></button></td>
       <td><button type="button" style="background-color: rgb(25, 25, 25);"></button></td>
       <td><button type="button" style="background-color: rgb(245, 245, 245);"></button></td>
     </tr>
@@ -34,10 +36,12 @@
   <div class="container">
     <div class="mainParent">
       <div class="row">
+        <!-- anything that looks like this is meant for screen size modifications -->
         <div class="col-lg-3 col-md-12 col-sm-12">
           <div class="main" id="main1">
             <h5><strong> <a href="https://github.com/jeremiahe00" rel="noopener" target="_blank">Github</a> </strong>
             </h5>
+            <!-- allow users to select and view important projects -->
             <select name="projects" class="form-select" style="background-color: rgb(242, 169, 65)">
               <option selected>Select Project</option>
               <option name="Project1">Most Recent</option>
