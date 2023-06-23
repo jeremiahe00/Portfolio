@@ -4,13 +4,13 @@
 
 Page Modes:
 ```
-Default `rgb(57, 227, 250)`
+Default 'rgb(57, 227, 250)'
 Dark Mode `rgb(25, 25, 25)`
 light Mode `rgb(245, 245, 245)`
 ```
 
 
-## Html
+## Html [HTML](front-end/Portfolio.html.md)
 
 
 ## CSS & Bootstrap 5
