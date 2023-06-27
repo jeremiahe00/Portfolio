@@ -1,5 +1,5 @@
 
-
+// $('#colorwheel').toggle();
 // get button selected at the top
 var bkgn = $('table td button');
 
@@ -37,8 +37,6 @@ bkgn.click(function () {
 var mostRecent = "https://github.com/jeremiahe00/Portfolio";
 var secondTop = "https://github.com/jeremiahe00/A-star-PathFinding---Makeblock-Mbot---Arduino";
 var thirdTop = "https://github.com/jeremiahe00/MazeOfAtlantis";
-var firstProjectInd = 1;
-var numOfProjs = 3 + firstProjectInd;
 
 
 $('select.form-select').on("change", openGithubOptions);
@@ -57,6 +55,9 @@ function openGithubOptions() {
   }
 }
 
-
+// $('#changeColorScheme').on("click", function() {
+//   $('.modes').toggle();
+//   $('#colorwheel').toggle();
+// });
 
 
